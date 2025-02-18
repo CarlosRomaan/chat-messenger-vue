@@ -14,7 +14,7 @@ import axios from "axios"
 import { v4 as uuid } from "uuid";
 import { db } from "@/firebase-init";
 
-axios.defaults.baseURL = "http://localhost:4001/";
+axios.defaults.baseURL = "https://chat-backend-blue-two.vercel.app/";
 
 export const useUserStore = defineStore("user", {
   state: () => ({
